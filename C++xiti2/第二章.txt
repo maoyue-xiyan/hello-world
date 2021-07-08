@@ -1,0 +1,28 @@
+2.1.2节练习
+练习2.3、练习2.3
+#include <iostream>
+int main()
+{
+	unsigned u = 10, u2 = 42;
+	int i = 10, i2 = 42;
+
+	std::cout << u2 - u << std::endl;
+	std::cout << u - u2 << std::endl;
+	std::cout << i2 - i << std::endl;
+	std::cout << i - i2 << std::endl;
+	std::cout << i - u << std::endl;
+	std::cout << u - i << std::endl;
+}
+2.1.3节练习
+练习2.8
+#include <iostream>
+int main()
+{
+	std::cout << "2M\n";
+
+	std::cout << "2";
+	std::cout << '\t';
+	std::cout << "\115";
+	std::cout << "\n";
+
+}
